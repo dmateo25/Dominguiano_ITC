@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    /* background-color: rgba(141, 166, 187, 0.253); */
+    background-color: #D4CFC9;
+    opacity: 100%;
+}
+header
+{
+    width:100%;
+    /* background-color:#fff2f2; */
+    background-color: white; 
+    
+    height: 80px;
+    
+    border-bottom: 1px #E7E7E7 solid;
+}
+.navcontainer
+{
+    width:80%;
+    margin:0px auto;    
+}
+
+
+
+.menu
+{
+    float:right;
+    display: block;
+}
+.menu ul
+{
+    list-style:none;
+}
+.menu ul li
+{
+    display:inline-block;
+}
+.menu ul li a
+{
+    color: #000;
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    transition: all 1s ease;
+}
+.menu ul li a:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    color: white;
+}
+
+
+/* Banner */ 
+
+.banner{
+    
+    background: url(background1.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+   
+.banner-content{
+    color: white;
+    font-weight: bolder;
+    width: 55%;
+    padding-top: 80px;
+    padding-left: 50spx;
+}
+
+.bannercontainer{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+
+.banner-content span{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+
+}
+
+.banner-content h1{
+    margin-bottom: 18px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
+.banner-content p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+    
+}
+
+.banner-content a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.banner-content .buttonone{
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border: 2px white solid;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+.banner-content .buttontwo{
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    border: 2px white solid;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+.banner-content .buttonone:hover{
+    background-color: white;
+    border: 2px black solid;
+    color: black;
+    transition: all 1s ease;
+}
+.banner-content .buttontwo:hover{
+    background-color: white;
+    border: 2px black solid;
+    color: black;
+    transition: all 1s ease;
+}
+
+/* content */
+ 
+.cardcontainer-1{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+}
+
+.cardcontainer-2{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    /* margin-top: 50px; */
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+.cardcontainer {
+    
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+   flex-wrap: wrap;
+    
+ }
+.card {
+    
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    /* border: 3px solid #333; */
+    border-radius: 20px;
+    background-color: white; 
+    /* background-color: #E7E7E7 */
+  
+}
+
+.blogcard {
+    
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border: 3px solid rgba(158, 14, 14, 0.212);
+    /* padding: 30px; */
+    padding-bottom: 40px;
+
+
+    /* border-radius: 20px; */
+    background-color: white;
+}
+
+
+
+.card:hover{
+   
+    /* background-color: rgba(0, 0, 0, 0.562); */
+    background-color: #C6C09C;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    color: black;
+    cursor: pointer;
+}
+
+
+.card h2{
+    color: rgba(158, 14, 14, 0.212);
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.blogcard h2{
+    color: #808080; 
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+
+
+
+.card p{
+    margin-left: 20px;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.blogcard p{
+    margin: 20px;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.card-image {
+    
+    height: 45%;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.blogcard-image {
+    
+    height: 45%;
+    margin-bottom: 15px;
+    /* border-radius: 20px 20px 0px 0px; */
+}
+
+.card a{
+     background-color: rgba(0, 0, 0, 0.3); 
+    /* background-color: blue; */
+    border: 1px rgba(158, 14, 14, 0.212) solid;
+   
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 100px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 1s ease;
+    
+}
+
+.card a:hover{
+   
+    background-color: white; 
+    color: black;
+    border: 1px rgba(158, 14, 14, 0.781) solid;
+}
+
+
+.car-1{
+    background-image: url(Philippinescover.jpg);
+    background-size: cover;
+}
+
+.car-2{
+    background-image: url(Omancover.jpg);
+    background-size: cover;
+}
+
+.car-3{
+    background-image: url(Canadacover.jpg);
+    background-size: cover;
+}
+
+.car-4{
+    background-image: url(Koreacover.jpeg);
+    background-size: cover;
+}
+
+.car-5{
+    background-image: url(Japancover.jpg);
+    background-size: cover;
+}
+.car-6{
+    background-image: url(/Chinacover.jpg);
+    background-size: cover;
+}
+.car-7{
+    background-image: url(https://github.com/dmateo25/Dominguiano/Images/Singaporecover.jpg);
+    background-size: cover;
+}
+.car-8{
+    background-image: url(https://github.com/dmateo25/Dominguiano/Images/Thailandcover.jpg);
+    background-size: cover;
+}
+.car-9{
+    background-image: url();
+    background-size: cover;
+}
+
+.morebtn{
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+   
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+.morebtn:hover{
+    background-color: white;
+    border: 1px rgb(158, 14, 14) solid;
+    transition: all 0.8s ease;
+    color: black
+}
+    
+
+.morecontainer{
+    padding-right: 125px;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.oman-1{
+    background-image: url(grand-mosque-roof-oman.jpg);
+    background-size: cover;
+}
+.oman-2{
+    background-image: url(wahiba-sands-oman.jpg);
+    background-size: cover;
+}
+.oman-3{
+    background-image: url(woman-nizwa-fort-oman.jpg);
+    background-size: cover;
+}
+
+.ph-1{
+    background-image: url(boracay.jpg);
+    background-size: cover;
+}
+.ph-2{
+    background-image: url(bohol.jpg);
+    background-size: cover;
+}
+.ph-3{
+    background-image: url(banaue.jpg);
+    background-size: cover;
+}
+.canada-1{
+    background-image: url(Banff-National-Park-.jpg);
+    background-size: cover;
+}
+.canada-2{
+    background-image: url(niagara-falls-canada-tourist-spots.jpg);
+    background-size: cover;
+}
+.canada-3{
+    background-image: url(Whistler-canada-tourist-spots.jpg);
+    background-size: cover;
+}
+.kr-1{
+    background-image: url(changdeokgung-palace.jpg);
+    background-size: cover;
+}
+.kr-2{
+    background-image: url(busan.jpg);
+    background-size: cover;
+}
+.kr-3{
+    background-image: url(bukchon.jpg);
+    background-size: cover;
+}
+.jp-1{
+    background-image: url(mount\ fuji.jpg);
+    background-size: cover;
+}
+.jp-2{
+    background-image: url(osaca\ castle.jpg);
+    background-size: cover;
+}
+.jp-3{
+    background-image: url(atsuta\ shrine.jpg);
+    background-size: cover;
+}
+.ch-1{
+    background-image: url(The\ Great\ Wall\ of\ China.jpg);
+    background-size: cover;
+}
+.ch-2{
+    background-image: url(The\ Summer\ Palace\,\ Beijing.jpg);
+    background-size: cover;
+}
+.ch-3{
+    background-image: url(Cruising\ the\ Li\ River\,\ Guilin.jpg);
+    background-size: cover;
+}
+
+.countryname h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #808080; 
+    letter-spacing: 2px; 
+}
+
+
+
+
+
